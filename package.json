@@ -1,6 +1,6 @@
 {
   "name": "double-sort",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sort an array on two object properties",
   "license": "MIT",
   "repository": "hanford/double-sort",
