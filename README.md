@@ -16,8 +16,8 @@ $ npm install --save double-sort
 const doubleSort = require('double-sort');
 
 // sort by two object properties
-doubleSort([{pending: 1, type: 'DEL'}, {pending: 2, type: 'HOLD'}, {pending, 3, type: 'DEL'}, ...], 'type', 'pending');
-//=> [{pending: 3, type: 'DEL'}, {pending, 1, type: 'DEL'}, {pending: 2, type: 'HOLD'}, ...]
+doubleSort([{pending: 1, type: 'DEL'}, {pending: 2, type: 'HOLD'}, {pending: 3, type: 'DEL'}, ...], 'type', 'pending');
+//=> [{pending: 3, type: 'DEL'}, {pending: 1, type: 'DEL'}, {pending: 2, type: 'HOLD'}, ...]
 ```
 
 

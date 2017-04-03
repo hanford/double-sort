@@ -14,11 +14,10 @@ module.exports = function (arr, sort1, sort2) {
   // finally, sort
   return arr
     .sort(function (a, b) {
-      if (a[sort2] === b[sort2]) {
-        return (a[sort1] > b[sort1]) ? -1 : (a[sort1] < b[sort1]) ? 1 : 0
+      if (a[sort1] === b[sort1]) {
+        return (a[sort2] > b[sort2]) ? -1 : (a[sort2] < b[sort2]) ? 1 : 0
       } else {
-        return (a[sort2] < b[sort2]) ? -1 : 1
+        return (a[sort1] < b[sort1]) ? -1 : 1
       }
     })
-    .reverse()
 }

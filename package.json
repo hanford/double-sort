@@ -1,4 +1,4 @@
-  {
+{
   "name": "double-sort",
   "version": "1.0.0",
   "description": "Sort an array on two object properties",
@@ -10,7 +10,7 @@
     "url": "jackhanford.com"
   },
   "scripts": {
-    "test": ""
+    "test": "node test.js"
   },
   "files": [
     "index.js"
@@ -28,5 +28,7 @@
     "properties"
   ],
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "~4.6.3"
+  }
 }
