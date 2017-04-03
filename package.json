@@ -1,0 +1,32 @@
+  {
+  "name": "double-sort",
+  "version": "1.0.0",
+  "description": "Sort an array on two object properties",
+  "license": "MIT",
+  "repository": "hanford/double-sort",
+  "author": {
+    "name": "Jack Hanford",
+    "email": "jackhanford@gmail.com",
+    "url": "jackhanford.com"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sort",
+    "sorting",
+    "array",
+    "arr",
+    "by",
+    "obj",
+    "object",
+    "prop",
+    "property",
+    "properties"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
